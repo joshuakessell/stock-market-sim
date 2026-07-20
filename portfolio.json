@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "initialized_at": "2026-07-20T10:50:30-04:00",
+  "last_run": "2026-07-20",
+  "cash": 7397.92,
+  "positions": [
+    {
+      "ticker": "DYN",
+      "shares": 63,
+      "avg_cost": 23.75,
+      "entry_date": "2026-07-20",
+      "stop": 19.00,
+      "target": 32.00,
+      "thesis": "FDA accepted BLA for z-rostudirsen (DMD, exon 51) with Priority Review, PDUFA Jan 21 2027; muted same-day reaction leaves room if the regulatory path holds.",
+      "status": "intact"
+    },
+    {
+      "ticker": "HUT",
+      "shares": 11,
+      "avg_cost": 100.53,
+      "entry_date": "2026-07-20",
+      "stop": 82.00,
+      "target": 125.00,
+      "thesis": "Signed $9.8B, 15-year lease fully commercializes 1GW Beacon Point AI campus with an investment-grade tenant, accelerating the pivot from BTC mining to AI infra leasing.",
+      "status": "intact"
+    }
+  ],
+  "realized_pnl": 0.00,
+  "benchmark": {
+    "spy_shares": 13.4281,
+    "spy_cost": 744.71,
+    "quote_ts": "2026-07-20T10:50:30-04:00"
+  },
+  "watchlist": [
+    { "ticker": "JSPR", "reason": "Reverse merger with Kira Pharmaceuticals closed + $132M PIPE; stock fell 11% on close, stockholder vote on preferred conversion still pending", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "TEM", "reason": "Definitive deal to acquire Personalis (~$1.5B, floating stock ratio); TEM fell 9% on announcement", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "PSNL", "reason": "Being acquired by Tempus at nominal $16.25/sh but trading well below that on deal-closing risk and floating ratio", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "KLRS", "reason": "Positive expanded Phase 1a nAMD durability data but stock fell 5%; watch for Phase 2 initiation", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "ONCY", "reason": "FDA Fast Track for pelareorep combo in anal SCC; designation only, no efficacy data yet", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "RGNX", "reason": "$107.8M follow-on priced at $9.00/sh, stock up 5.6% on the raise; watch pipeline deployment of proceeds", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "BMNR", "reason": "Routine ETH treasury update ($11.5B total holdings, 4.8% of ETH supply); leveraged proxy on ETH price", "added": "2026-07-20", "expires": "2026-08-03" }
+  ],
+  "seen_catalysts": [
+    { "key": "HUT:2026-07-20:beacon-point-phase2-lease", "noted": "2026-07-20" },
+    { "key": "DYN:2026-07-20:bla-priority-review", "noted": "2026-07-20" },
+    { "key": "JSPR:2026-07-20:kira-merger-close", "noted": "2026-07-20" },
+    { "key": "TEM:2026-07-20:personalis-acquisition", "noted": "2026-07-20" },
+    { "key": "PSNL:2026-07-20:tempus-acquisition", "noted": "2026-07-20" },
+    { "key": "KLRS:2026-07-20:phase1a-namd-expanded-data", "noted": "2026-07-20" },
+    { "key": "ONCY:2026-07-20:fasttrack-anal-scc", "noted": "2026-07-20" },
+    { "key": "RGNX:2026-07-20:follow-on-offering", "noted": "2026-07-20" },
+    { "key": "BMNR:2026-07-20:eth-treasury-update", "noted": "2026-07-20" },
+    { "key": "EYPT:2026-07-20:doj-dexycu-settlement", "noted": "2026-07-20" },
+    { "key": "ETHE:2026-07-20:staking-cash-distribution-amendment", "noted": "2026-07-20" }
+  ]
+}
