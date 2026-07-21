@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-07-20",
+  "last_run": "2026-07-21",
   "cash": 7397.92,
   "positions": [
     {
@@ -38,7 +38,10 @@
     { "ticker": "KLRS", "reason": "Positive expanded Phase 1a nAMD durability data but stock fell 5%; watch for Phase 2 initiation", "added": "2026-07-20", "expires": "2026-08-03" },
     { "ticker": "ONCY", "reason": "FDA Fast Track for pelareorep combo in anal SCC; designation only, no efficacy data yet", "added": "2026-07-20", "expires": "2026-08-03" },
     { "ticker": "RGNX", "reason": "$107.8M follow-on priced at $9.00/sh, stock up 5.6% on the raise; watch pipeline deployment of proceeds", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "BMNR", "reason": "Routine ETH treasury update ($11.5B total holdings, 4.8% of ETH supply); leveraged proxy on ETH price", "added": "2026-07-20", "expires": "2026-08-03" }
+    { "ticker": "BMNR", "reason": "Routine ETH treasury update ($11.5B total holdings, 4.8% of ETH supply); leveraged proxy on ETH price", "added": "2026-07-20", "expires": "2026-08-03" },
+    { "ticker": "AMD", "reason": "Expanded Microsoft/Azure deal to deploy AMD's rack-scale Helios AI system; flagship customer validates rack-level competition with Nvidia, +4.5% premarket", "added": "2026-07-21", "expires": "2026-08-04" },
+    { "ticker": "BLTE", "reason": "New Phase 3 DRAGON secondary-endpoint data for tinlarebant in Stargardt disease at ASRS; NDA already submitted to FDA", "added": "2026-07-21", "expires": "2026-08-04" },
+    { "ticker": "GLSI", "reason": "Preliminary FLAMINGO-01 open-label arm data (~70-80% recurrence reduction, company-flagged as immature); DSMB recommended trial continue unmodified", "added": "2026-07-21", "expires": "2026-08-04" }
   ],
   "seen_catalysts": [
     { "key": "HUT:2026-07-20:beacon-point-phase2-lease", "noted": "2026-07-20" },
@@ -51,6 +54,17 @@
     { "key": "RGNX:2026-07-20:follow-on-offering", "noted": "2026-07-20" },
     { "key": "BMNR:2026-07-20:eth-treasury-update", "noted": "2026-07-20" },
     { "key": "EYPT:2026-07-20:doj-dexycu-settlement", "noted": "2026-07-20" },
-    { "key": "ETHE:2026-07-20:staking-cash-distribution-amendment", "noted": "2026-07-20" }
+    { "key": "ETHE:2026-07-20:staking-cash-distribution-amendment", "noted": "2026-07-20" },
+    { "key": "LXP:2026-07-20:brookfield-cppib-acquisition", "noted": "2026-07-21" },
+    { "key": "MGY:2026-07-20:wildfire-energy-acquisition", "noted": "2026-07-21" },
+    { "key": "ZWS:2026-07-20:intellihot-acquisition", "noted": "2026-07-21" },
+    { "key": "SNBR:2026-07-20:bankruptcy-sale-sleep-country", "noted": "2026-07-21" },
+    { "key": "AMD:2026-07-20:microsoft-helios-partnership", "noted": "2026-07-21" },
+    { "key": "ASTS:2026-07-20:convertible-notes-launch-delay", "noted": "2026-07-21" },
+    { "key": "BLTE:2026-07-20:asrs-secondary-endpoint-data", "noted": "2026-07-21" },
+    { "key": "GLSI:2026-07-20:flamingo01-openlabel-data", "noted": "2026-07-21" },
+    { "key": "CHINA-EM:2026-07-20:national-team-intervention", "noted": "2026-07-21" },
+    { "key": "BTC:2026-07-21:etf-outflow-streak-easing", "noted": "2026-07-21" },
+    { "key": "ETH:2026-07-21:etf-inflow-rotation", "noted": "2026-07-21" }
   ]
 }
