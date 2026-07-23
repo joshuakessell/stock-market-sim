@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-07-22",
+  "last_run": "2026-07-23",
   "cash": 7397.92,
   "positions": [
     {
@@ -9,9 +9,9 @@
       "shares": 63,
       "avg_cost": 23.75,
       "entry_date": "2026-07-20",
-      "stop": 19.00,
-      "target": 32.00,
-      "thesis": "FDA accepted BLA for z-rostudirsen (DMD, exon 51) with Priority Review, PDUFA Jan 21 2027; a July 21-22 upsized $375M offering priced at $20.50 is dilutive and sits close to the stop, but does not itself invalidate the regulatory thesis.",
+      "stop": 19.0,
+      "target": 32.0,
+      "thesis": "FDA accepted BLA for z-rostudirsen (DMD, exon 51) with Priority Review, PDUFA Jan 21 2027; the upsized $375M offering priced at $20.50 (expected to close July 23) is dilutive and sits close to the stop, but does not itself invalidate the regulatory thesis.",
       "status": "watch"
     },
     {
@@ -19,70 +19,278 @@
       "shares": 11,
       "avg_cost": 100.53,
       "entry_date": "2026-07-20",
-      "stop": 82.00,
-      "target": 125.00,
+      "stop": 82.0,
+      "target": 125.0,
       "thesis": "Signed $9.8B, 15-year lease fully commercializes 1GW Beacon Point AI campus with an investment-grade tenant, accelerating the pivot from BTC mining to AI infra leasing.",
       "status": "intact"
     }
   ],
-  "realized_pnl": 0.00,
+  "realized_pnl": 0.0,
   "benchmark": {
     "spy_shares": 13.4281,
     "spy_cost": 744.71,
     "quote_ts": "2026-07-20T10:50:30-04:00"
   },
   "watchlist": [
-    { "ticker": "JSPR", "reason": "Reverse merger with Kira Pharmaceuticals closed + $132M PIPE; stock fell 11% on close, stockholder vote on preferred conversion still pending", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "TEM", "reason": "Definitive deal to acquire Personalis (~$1.5B, floating stock ratio); TEM fell 9% on announcement; routine shareholder-rights investigation opened July 21-22, not itself material", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "PSNL", "reason": "Being acquired by Tempus at nominal $16.25/sh but trading well below that on deal-closing risk and floating ratio; routine shareholder-rights investigation opened July 21-22, not itself material", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "KLRS", "reason": "Positive expanded Phase 1a nAMD durability data but stock fell 5%; watch for Phase 2 initiation", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "ONCY", "reason": "FDA Fast Track for pelareorep combo in anal SCC; designation only, no efficacy data yet", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "RGNX", "reason": "$100-107.8M follow-on priced at $9.00/sh; sources conflict on stock reaction (+5.6% per prior note vs. -11.7% per July 22 research) — unresolved, watch for a confirmed live quote", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "BMNR", "reason": "Routine ETH treasury update ($11.3-11.5B total holdings); B. Riley trimmed PT to $25 from $33 (kept Buy) on July 21; leveraged proxy on ETH price", "added": "2026-07-20", "expires": "2026-08-03" },
-    { "ticker": "AMD", "reason": "Expanded Microsoft/Azure Helios deal; July 21 analyst PT hikes (Rosenblatt $655, UBS $700) after another +8.1% day; Advancing AI 2026 event July 22-23", "added": "2026-07-21", "expires": "2026-08-04" },
-    { "ticker": "BLTE", "reason": "New Phase 3 DRAGON secondary-endpoint data for tinlarebant in Stargardt disease at ASRS; NDA already submitted to FDA", "added": "2026-07-21", "expires": "2026-08-04" },
-    { "ticker": "GLSI", "reason": "Preliminary FLAMINGO-01 open-label arm data (~70-80% recurrence reduction, company-flagged as immature); DSMB recommended trial continue unmodified", "added": "2026-07-21", "expires": "2026-08-04" },
-    { "ticker": "NBIS", "reason": "Nvidia took a 9.3% equity stake (~$5B) plus a planned $2B AI-infra investment; separate >$1B multi-year compute deal with Reflection AI; stock +18.78% July 21", "added": "2026-07-22", "expires": "2026-08-05" },
-    { "ticker": "RKLB", "reason": "$266M U.S. Space Force firm-fixed-price contract for 12+6 suborbital launches through 2028; stock +6-9% after hours July 21", "added": "2026-07-22", "expires": "2026-08-05" },
-    { "ticker": "MU", "reason": "+12% July 21 on a bullish BofA note (Buy, $1,550 PT) amid an AI-memory chip rally; more analyst/sentiment-driven than a discrete company event", "added": "2026-07-22", "expires": "2026-08-05" },
-    { "ticker": "ACAD", "reason": "FDA Fast Track for remlifanserin in Alzheimer's-disease psychosis; Phase 2 RADIANT enrollment complete, topline expected Sept-Oct 2026", "added": "2026-07-22", "expires": "2026-08-05" }
+    {
+      "ticker": "JSPR",
+      "reason": "Reverse merger with Kira Pharmaceuticals closed + $132M PIPE; stock fell 11% on close, stockholder vote on preferred conversion still pending",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "TEM",
+      "reason": "Definitive deal to acquire Personalis (~$1.5B, floating stock ratio); TEM fell 9% on announcement; routine shareholder-rights investigation opened July 21-22, not itself material",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "PSNL",
+      "reason": "Being acquired by Tempus at nominal $16.25/sh but trading well below that on deal-closing risk and floating ratio; routine shareholder-rights investigation opened July 21-22, not itself material",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "KLRS",
+      "reason": "Positive expanded Phase 1a nAMD durability data but stock fell 5%; watch for Phase 2 initiation",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "ONCY",
+      "reason": "FDA Fast Track for pelareorep combo in anal SCC; designation only, no efficacy data yet",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "RGNX",
+      "reason": "$100M ($107.8M) follow-on priced at $9.00/sh on July 17; shares fell ~17% on the pricing (resolves prior conflicting reports); separate shareholder-rights investigation into RGX-111 disclosures adds legal-headline risk",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "BMNR",
+      "reason": "Routine ETH treasury update ($11.3-11.5B total holdings); B. Riley trimmed PT to $25 from $33 (kept Buy) on July 21; leveraged proxy on ETH price",
+      "added": "2026-07-20",
+      "expires": "2026-08-03"
+    },
+    {
+      "ticker": "AMD",
+      "reason": "Expanded Microsoft/Azure Helios deal; July 21 analyst PT hikes (Rosenblatt $655, UBS $700) after another +8.1% day; Advancing AI 2026 event runs July 22-23, outcomes pending",
+      "added": "2026-07-21",
+      "expires": "2026-08-04"
+    },
+    {
+      "ticker": "BLTE",
+      "reason": "New Phase 3 DRAGON secondary-endpoint data for tinlarebant in Stargardt disease at ASRS; NDA already submitted to FDA",
+      "added": "2026-07-21",
+      "expires": "2026-08-04"
+    },
+    {
+      "ticker": "GLSI",
+      "reason": "Preliminary FLAMINGO-01 open-label arm data (~70-80% recurrence reduction, company-flagged as immature); DSMB recommended trial continue unmodified",
+      "added": "2026-07-21",
+      "expires": "2026-08-04"
+    },
+    {
+      "ticker": "NBIS",
+      "reason": "Nvidia took a 9.3% equity stake (~$5B) plus a planned $2B AI-infra investment; separate >$1B multi-year compute deal with Reflection AI; stock +18.78% July 21",
+      "added": "2026-07-22",
+      "expires": "2026-08-05"
+    },
+    {
+      "ticker": "RKLB",
+      "reason": "$266M U.S. Space Force firm-fixed-price contract for 12+6 suborbital launches through 2028; stock +6-9% after hours July 21",
+      "added": "2026-07-22",
+      "expires": "2026-08-05"
+    },
+    {
+      "ticker": "MU",
+      "reason": "+12% July 21 on a bullish BofA note (Buy, $1,550 PT) amid an AI-memory chip rally; more analyst/sentiment-driven than a discrete company event",
+      "added": "2026-07-22",
+      "expires": "2026-08-05"
+    },
+    {
+      "ticker": "ACAD",
+      "reason": "FDA Fast Track for remlifanserin in Alzheimer's-disease psychosis; Phase 2 RADIANT enrollment complete, topline expected Sept-Oct 2026",
+      "added": "2026-07-22",
+      "expires": "2026-08-05"
+    },
+    {
+      "ticker": "ARWR",
+      "reason": "Phase 3 SHASTA-3 and SHASTA-4 both met primary endpoint (79-81% triglyceride reduction) and all secondary endpoints incl. pancreatitis reduction; shares reportedly +18% pre-market; sNDA planned by year-end",
+      "added": "2026-07-23",
+      "expires": "2026-08-06"
+    }
   ],
   "seen_catalysts": [
-    { "key": "HUT:2026-07-20:beacon-point-phase2-lease", "noted": "2026-07-20" },
-    { "key": "DYN:2026-07-20:bla-priority-review", "noted": "2026-07-20" },
-    { "key": "JSPR:2026-07-20:kira-merger-close", "noted": "2026-07-20" },
-    { "key": "TEM:2026-07-20:personalis-acquisition", "noted": "2026-07-20" },
-    { "key": "PSNL:2026-07-20:tempus-acquisition", "noted": "2026-07-20" },
-    { "key": "KLRS:2026-07-20:phase1a-namd-expanded-data", "noted": "2026-07-20" },
-    { "key": "ONCY:2026-07-20:fasttrack-anal-scc", "noted": "2026-07-20" },
-    { "key": "RGNX:2026-07-20:follow-on-offering", "noted": "2026-07-20" },
-    { "key": "BMNR:2026-07-20:eth-treasury-update", "noted": "2026-07-20" },
-    { "key": "EYPT:2026-07-20:doj-dexycu-settlement", "noted": "2026-07-20" },
-    { "key": "ETHE:2026-07-20:staking-cash-distribution-amendment", "noted": "2026-07-20" },
-    { "key": "LXP:2026-07-20:brookfield-cppib-acquisition", "noted": "2026-07-21" },
-    { "key": "MGY:2026-07-20:wildfire-energy-acquisition", "noted": "2026-07-21" },
-    { "key": "ZWS:2026-07-20:intellihot-acquisition", "noted": "2026-07-21" },
-    { "key": "SNBR:2026-07-20:bankruptcy-sale-sleep-country", "noted": "2026-07-21" },
-    { "key": "AMD:2026-07-20:microsoft-helios-partnership", "noted": "2026-07-21" },
-    { "key": "ASTS:2026-07-20:convertible-notes-launch-delay", "noted": "2026-07-21" },
-    { "key": "BLTE:2026-07-20:asrs-secondary-endpoint-data", "noted": "2026-07-21" },
-    { "key": "GLSI:2026-07-20:flamingo01-openlabel-data", "noted": "2026-07-21" },
-    { "key": "CHINA-EM:2026-07-20:national-team-intervention", "noted": "2026-07-21" },
-    { "key": "BTC:2026-07-21:etf-outflow-streak-easing", "noted": "2026-07-21" },
-    { "key": "ETH:2026-07-21:etf-inflow-rotation", "noted": "2026-07-21" },
-    { "key": "DYN:2026-07-21:dilutive-375m-offering", "noted": "2026-07-22" },
-    { "key": "RGNX:2026-07-21:offering-reaction-conflict", "noted": "2026-07-22" },
-    { "key": "ACAD:2026-07-20:fasttrack-alzheimers-psychosis", "noted": "2026-07-22" },
-    { "key": "MU:2026-07-21:bofa-note-memory-rally", "noted": "2026-07-22" },
-    { "key": "NBIS:2026-07-21:nvidia-stake-reflection-ai-deal", "noted": "2026-07-22" },
-    { "key": "AMD:2026-07-21:analyst-upgrades-continued-rally", "noted": "2026-07-22" },
-    { "key": "RKLB:2026-07-21:space-force-266m-contract", "noted": "2026-07-22" },
-    { "key": "GM:2026-07-21:q2-beat-raised-guidance", "noted": "2026-07-22" },
-    { "key": "CHINA-EM:2026-07-21:record-state-intervention-inflows", "noted": "2026-07-22" },
-    { "key": "EWY:2026-07-20:record-korea-etf-inflows", "noted": "2026-07-22" },
-    { "key": "COIN-HOOD-BLSH:2026-07-21:clarity-act-rally", "noted": "2026-07-22" },
-    { "key": "BTC:2026-07-21:etf-inflow-streak-5day", "noted": "2026-07-22" },
-    { "key": "ETH:2026-07-21:etf-inflow-breaks-8wk-outflow", "noted": "2026-07-22" },
-    { "key": "LDO:2026-07-21:nansen-vault-lido-v3-launch", "noted": "2026-07-22" }
+    {
+      "key": "HUT:2026-07-20:beacon-point-phase2-lease",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "DYN:2026-07-20:bla-priority-review",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "JSPR:2026-07-20:kira-merger-close",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "TEM:2026-07-20:personalis-acquisition",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "PSNL:2026-07-20:tempus-acquisition",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "KLRS:2026-07-20:phase1a-namd-expanded-data",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "ONCY:2026-07-20:fasttrack-anal-scc",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "RGNX:2026-07-20:follow-on-offering",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "BMNR:2026-07-20:eth-treasury-update",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "EYPT:2026-07-20:doj-dexycu-settlement",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "ETHE:2026-07-20:staking-cash-distribution-amendment",
+      "noted": "2026-07-20"
+    },
+    {
+      "key": "LXP:2026-07-20:brookfield-cppib-acquisition",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "MGY:2026-07-20:wildfire-energy-acquisition",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "ZWS:2026-07-20:intellihot-acquisition",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "SNBR:2026-07-20:bankruptcy-sale-sleep-country",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "AMD:2026-07-20:microsoft-helios-partnership",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "ASTS:2026-07-20:convertible-notes-launch-delay",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "BLTE:2026-07-20:asrs-secondary-endpoint-data",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "GLSI:2026-07-20:flamingo01-openlabel-data",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "CHINA-EM:2026-07-20:national-team-intervention",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "BTC:2026-07-21:etf-outflow-streak-easing",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "ETH:2026-07-21:etf-inflow-rotation",
+      "noted": "2026-07-21"
+    },
+    {
+      "key": "DYN:2026-07-21:dilutive-375m-offering",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "RGNX:2026-07-21:offering-reaction-conflict",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "ACAD:2026-07-20:fasttrack-alzheimers-psychosis",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "MU:2026-07-21:bofa-note-memory-rally",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "NBIS:2026-07-21:nvidia-stake-reflection-ai-deal",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "AMD:2026-07-21:analyst-upgrades-continued-rally",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "RKLB:2026-07-21:space-force-266m-contract",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "GM:2026-07-21:q2-beat-raised-guidance",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "CHINA-EM:2026-07-21:record-state-intervention-inflows",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "EWY:2026-07-20:record-korea-etf-inflows",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "COIN-HOOD-BLSH:2026-07-21:clarity-act-rally",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "BTC:2026-07-21:etf-inflow-streak-5day",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "ETH:2026-07-21:etf-inflow-breaks-8wk-outflow",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "LDO:2026-07-21:nansen-vault-lido-v3-launch",
+      "noted": "2026-07-22"
+    },
+    {
+      "key": "ARWR:2026-07-22:shasta3-4-phase3-topline",
+      "noted": "2026-07-23"
+    },
+    {
+      "key": "RGNX:2026-07-22:reaction-resolved-fell-17pct",
+      "noted": "2026-07-23"
+    },
+    {
+      "key": "CLARITY-ACT:2026-07-22:ethics-deal-reached",
+      "noted": "2026-07-23"
+    },
+    {
+      "key": "BTC:2026-07-22:etf-inflow-streak-6day",
+      "noted": "2026-07-23"
+    },
+    {
+      "key": "ETH:2026-07-22:etf-inflow-streak-4day",
+      "noted": "2026-07-23"
+    },
+    {
+      "key": "RUSSIA-CRYPTO:2026-07-21:state-duma-property-law",
+      "noted": "2026-07-23"
+    }
   ]
 }
