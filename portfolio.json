@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-07-23",
+  "last_run": "2026-07-24",
   "cash": 7397.92,
   "positions": [
     {
@@ -11,7 +11,7 @@
       "entry_date": "2026-07-20",
       "stop": 19.0,
       "target": 32.0,
-      "thesis": "FDA accepted BLA for z-rostudirsen (DMD, exon 51) with Priority Review, PDUFA Jan 21 2027; the upsized $375M offering priced at $20.50 (expected to close July 23) is dilutive and sits close to the stop, but does not itself invalidate the regulatory thesis.",
+      "thesis": "FDA accepted BLA for z-rostudirsen (DMD, exon 51) with Priority Review, PDUFA Jan 21 2027; the offering closed July 24 upsized further via full over-allotment exercise (21,045,000 sh at $20.50, ~$431.4M gross vs. the $375M headline) — more dilutive than initially priced but does not itself invalidate the regulatory thesis.",
       "status": "watch"
     },
     {
@@ -70,15 +70,15 @@
     },
     {
       "ticker": "BMNR",
-      "reason": "Routine ETH treasury update ($11.3-11.5B total holdings); B. Riley trimmed PT to $25 from $33 (kept Buy) on July 21; leveraged proxy on ETH price",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
+      "reason": "Q3 FY26 results: revenue beat ($46.5M, 98% ETH staking) but a $92.1M loss on ETH-linked derivatives drove an $83.6M net loss; stock fell ~7.7% July 23. Derivatives exposure is now a structural swing factor distinct from the underlying ETH-treasury thesis",
+      "added": "2026-07-24",
+      "expires": "2026-08-07"
     },
     {
       "ticker": "AMD",
-      "reason": "Expanded Microsoft/Azure Helios deal; July 21 analyst PT hikes (Rosenblatt $655, UBS $700) after another +8.1% day; Advancing AI 2026 event runs July 22-23, outcomes pending",
-      "added": "2026-07-21",
-      "expires": "2026-08-04"
+      "reason": "Helios rackscale platform reached production at the July 22-23 Advancing AI 2026 event, plus new EPYC 9006 server CPUs and a Ryzen AI Halo/Cisco collaboration; stock still fell 4% same-day, but that tracks a broad Nasdaq selloff (Alphabet -7%, Tesla -14% on earnings) rather than a reaction to AMD's news",
+      "added": "2026-07-24",
+      "expires": "2026-08-07"
     },
     {
       "ticker": "BLTE",
@@ -94,9 +94,9 @@
     },
     {
       "ticker": "NBIS",
-      "reason": "Nvidia took a 9.3% equity stake (~$5B) plus a planned $2B AI-infra investment; separate >$1B multi-year compute deal with Reflection AI; stock +18.78% July 21",
-      "added": "2026-07-22",
-      "expires": "2026-08-05"
+      "reason": "A July 23 SEC filing confirmed the hard number behind the Nvidia stake reported July 21: 22,256,412 shares/warrants, a 9.3% holding; shares jumped as much as +18.8% intraday on the filed confirmation",
+      "added": "2026-07-24",
+      "expires": "2026-08-07"
     },
     {
       "ticker": "RKLB",
@@ -106,9 +106,9 @@
     },
     {
       "ticker": "MU",
-      "reason": "+12% July 21 on a bullish BofA note (Buy, $1,550 PT) amid an AI-memory chip rally; more analyst/sentiment-driven than a discrete company event",
-      "added": "2026-07-22",
-      "expires": "2026-08-05"
+      "reason": "Hit roughly $1,000/share July 23 on a different anchor than the July 21 BofA note: hyperscaler capex disclosures (Alphabet, Tesla) plus a TrendForce 2026 NAND-shortage forecast, corroborating the memory-cycle thesis from an independent angle",
+      "added": "2026-07-24",
+      "expires": "2026-08-07"
     },
     {
       "ticker": "ACAD",
@@ -291,6 +291,38 @@
     {
       "key": "RUSSIA-CRYPTO:2026-07-21:state-duma-property-law",
       "noted": "2026-07-23"
+    },
+    {
+      "key": "NBIS:2026-07-23:nvidia-93pct-stake-filed",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "AMD:2026-07-23:helios-production-advancing-ai",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "BMNR:2026-07-23:q3-earnings-revenue-beat-net-loss",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "MU:2026-07-23:hits-1000-capex-nand-shortage",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "DYN:2026-07-24:offering-closed-upsized-431m",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "BTC:2026-07-23:etf-inflow-streak-7day",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "ETH:2026-07-23:etf-inflow-streak-5day",
+      "noted": "2026-07-24"
+    },
+    {
+      "key": "CLARITY-ACT:2026-07-23:timeline-slips-thune",
+      "noted": "2026-07-24"
     }
   ]
 }
