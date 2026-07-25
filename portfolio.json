@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-07-24",
+  "last_run": "2026-07-25",
   "cash": 7397.92,
   "positions": [
     {
@@ -106,8 +106,14 @@
     },
     {
       "ticker": "MU",
-      "reason": "Hit roughly $1,000/share July 23 on a different anchor than the July 21 BofA note: hyperscaler capex disclosures (Alphabet, Tesla) plus a TrendForce 2026 NAND-shortage forecast, corroborating the memory-cycle thesis from an independent angle",
-      "added": "2026-07-24",
+      "reason": "Reversal: fell ~8.2% July 24 ($990.21 to $909.35) a day after hitting $1,000 on the capex/NAND-shortage thesis, triggered by SanDisk's own guidance flagging NAND price contraction (Korea chip selloff spillover, SK Hynix also down); bull and bear cases on the memory cycle are now both live within 24 hours",
+      "added": "2026-07-25",
+      "expires": "2026-08-07"
+    },
+    {
+      "ticker": "MCHP",
+      "reason": "Definitive agreement to acquire edge-AI chipmaker Hailo (100+ customers, 10,000+ developers); terms undisclosed and company states no material impact to financials, so tracked rather than sized",
+      "added": "2026-07-25",
       "expires": "2026-08-07"
     },
     {
@@ -323,6 +329,34 @@
     {
       "key": "CLARITY-ACT:2026-07-23:timeline-slips-thune",
       "noted": "2026-07-24"
+    },
+    {
+      "key": "MU:2026-07-24:sandisk-guidance-reversal",
+      "noted": "2026-07-25"
+    },
+    {
+      "key": "SNDK:2026-07-24:nand-price-contraction-guidance",
+      "noted": "2026-07-25"
+    },
+    {
+      "key": "INTC:2026-07-23:q2-beat-chips-act-gaap-loss",
+      "noted": "2026-07-25"
+    },
+    {
+      "key": "MCHP:2026-07-24:hailo-acquisition-definitive-agreement",
+      "noted": "2026-07-25"
+    },
+    {
+      "key": "CHINA-EM:2026-07-24:tariff-125pct-effective",
+      "noted": "2026-07-25"
+    },
+    {
+      "key": "BTC:2026-07-23:etf-outflow-streak-snapped",
+      "noted": "2026-07-25"
+    },
+    {
+      "key": "ETH:2026-07-24:etf-inflow-despite-price-drop",
+      "noted": "2026-07-25"
     }
   ]
 }
