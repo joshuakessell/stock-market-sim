@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-07-27",
+  "last_run": "2026-07-28",
   "cash": 7397.92,
   "positions": [
     {
@@ -127,6 +127,12 @@
       "reason": "Phase 3 SHASTA-3 and SHASTA-4 both met primary endpoint (79-81% triglyceride reduction) and all secondary endpoints incl. pancreatitis reduction; shares reportedly +18% pre-market; sNDA planned by year-end",
       "added": "2026-07-23",
       "expires": "2026-08-06"
+    },
+    {
+      "ticker": "QBTS",
+      "reason": "AT&T expanded its D-Wave quantum-computing partnership to network optimization (a prior workload cut from ~1hr to <15sec); shares +19-20% same-day and D-Wave moved its listing from NYSE to Nasdaq the same day; no primary filing verified given the ongoing data-source outage, corroborated only via press (BusinessWire release plus multiple independent outlets)",
+      "added": "2026-07-28",
+      "expires": "2026-08-11"
     }
   ],
   "seen_catalysts": [
@@ -357,6 +363,18 @@
     {
       "key": "ETH:2026-07-24:etf-inflow-despite-price-drop",
       "noted": "2026-07-25"
+    },
+    {
+      "key": "QBTS:2026-07-27:att-expanded-quantum-partnership",
+      "noted": "2026-07-28"
+    },
+    {
+      "key": "SEMIS:2026-07-27:ai-financing-china-competition-selloff",
+      "noted": "2026-07-28"
+    },
+    {
+      "key": "BTC:2026-07-27:etf-outflow-fri-sat-despite-weekly-inflow",
+      "noted": "2026-07-28"
     }
   ]
 }
