@@ -1,3 +1,73 @@
+# Morning Investment Research — Wednesday, July 29, 2026
+*Window covered: Tuesday, July 28, 2026 00:00 ET – Wednesday, July 29, 2026 ~05:08 ET*
+
+**Data-sourcing note (read before the rest):** for the ninth run in a row, every structured, machine-readable source this briefing normally relies on was unreachable — SEC EDGAR, `data.sec.gov`, ClinicalTrials.gov, bioRxiv, FDA.gov, arXiv, NASA, the Yahoo Finance quote API, and the Coinbase/Kraken/crypto.com APIs all returned `403 Forbidden` on the CONNECT tunnel. Confirmed independently via direct `curl` (every external host tried failed identically, while `github.com`, `api.github.com`, and `pypi.org` succeeded — this session's egress policy appears to allow only GitHub and package registries), the proxy's own status endpoint (`connect_rejected`, "gateway answered 403 to CONNECT — policy denial or upstream failure"), `WebFetch` (403 on every URL tried, including non-financial sites like Wikipedia), and the repo's own `fetch_quotes.py` (all three equity tickers and both crypto assets errored identically). `WebSearch` continues to work and is the only source below; nothing here is a fetched primary filing or exchange quote, and **no live, cross-checked price exists for any equity or crypto asset today.** The Gmail connector available to this session again exposes create/update-draft tools only — no send tool of any kind. See the Portfolio section and the administrative note at the end.
+
+# 📈 Stocks
+
+**Two items are worth noting. Both concern names already on file; nothing new clears the bar for a fresh position given no fill can be priced today anyway.**
+
+### Medical
+#### Dyne Therapeutics (DYN, Nasdaq) — Impact: Low (pipeline update, existing position)
+**What happened:** Dyne announced FDA clearance of the IND application for DYNE-302, a third FORCE-platform program, targeting facioscapulohumeral muscular dystrophy (FSHD). A Phase 1 trial will begin with 9 participants randomized 2:1 to drug (1.5 mg/kg IV, dosed Q4W) or placebo, primary endpoint safety/tolerability, with DUX4 transcriptome and plasma KHDC1L as pharmacodynamic markers. Announced via GlobeNewswire July 28, corroborated by BioSpace, BioWorld, RTTNews, and PharmaShots.
+**Market impact:** This is pipeline breadth, not a readout on the lead asset (z-rostudirsen, the actual basis for the DYN position). No SEC filing could be pulled to verify given the outage.
+**Recommendation: Hold (unchanged, watch status stands)** — this validates the FORCE platform generally but doesn't touch the z-rostudirsen regulatory thesis or the dilution concern already on file from the upsized offering. Risk: still the same offering-driven dilution and the PDUFA timeline (Jan 21, 2027). Monitoring trigger unchanged: any update on the z-rostudirsen regulatory path or further capital raises.
+
+### Technology, AI & Quantum
+#### IonQ (IONQ) / SkyWater Technology (SKYT) — Impact: Low-Medium [Deal]
+**What happened:** IonQ received final regulatory approval to close its acquisition of SkyWater Technology, a US-based semiconductor foundry, completing a deal first announced in January 2026. SkyWater continues operating as a wholly owned IonQ subsidiary. Reported via StockTitan (citing an SKYT 8-K) and general wire coverage.
+**Market impact:** Secures IonQ a domestic, scalable supply chain for its quantum hardware roadmap. Since the deal itself was announced back in January, today's news is a closing/completion event, not a surprise — much of the informational content is likely already priced in.
+**Recommendation: Watch** — added to the watchlist rather than sized, both because it's a completion of already-known news (limited fresh alpha) and because no verified quote exists to size a fill against today. Risk: integration execution; monitoring trigger: IonQ's next quarterly update on SkyWater's contribution to capacity/margins.
+
+Nothing else in the window (medical, space, deals, emerging markets, ETFs) turned up a genuinely new, unambiguous, multi-source-corroborated catalyst distinct from names already logged in `seen_catalysts`. HUT had no new company-specific news this window beyond continued reiteration of the already-logged Beacon Point lease and analyst-target story.
+
+# ₿ Cryptos
+
+**No material catalyst beyond ordinary price movement; no cross-checked price is available to report.**
+
+Search snippets put Bitcoin near $63,900–64,000 (roughly flat, +0.3% by one aggregator's read) and Ethereum near $1,878–1,891, down about 3% intraday Tuesday, with both markets primarily tracking positioning ahead of the Fed's July 28–29 policy meeting rather than any token-specific event. Nothing here is cross-checked against an exchange API this run, so no snapshot table is included to avoid presenting unverified numbers as data.
+
+---
+**Sources consulted:** WebSearch only (SEC EDGAR, ClinicalTrials.gov, bioRxiv, FDA.gov, arXiv, NASA, Yahoo Finance quote API, and the Coinbase/Kraken/crypto.com APIs all blocked this session — 9th consecutive day, confirmed via `curl`, `WebFetch`, the proxy status endpoint, and the repo's own `fetch_quotes.py`).
+
+*Informational only; not investment advice. Crypto is volatile and speculative. Verify independently before trading. Generated ~05:08 ET, July 29, 2026.*
+
+---
+
+# Portfolio
+
+## Snapshot
+No live quotes were obtainable this run (see data-sourcing note above) — the same limitation as the prior eight runs. As of the last confirmed state (July 20 fills; unchanged since):
+- Cash: $7,397.92
+- Open positions at cost: DYN 63 sh @ $23.75 ($1,496.25) + HUT 11 sh @ $100.53 ($1,105.83) = $2,602.08 at cost
+- Total account value at cost basis: $10,000.00 (unchanged from the $10,000 starting value; no realized gains/losses booked and no mark-to-market available)
+- Benchmark: 13.4281 SPY shares at $744.71 cost ($10,000 equivalent at inception); no current SPY price available to compare.
+- Return vs. $10,000 start and vs. SPY benchmark: **cannot be computed today** without a live quote, deferred until data access is restored.
+
+Unverified, search-sourced context only (not a fill basis): HUT was reported closing July 28 around $100.62, essentially flat versus its $100.53 average cost, after trading as high as $102.49 and as low as $91.60 intraday. No comparable secondhand figure was found for DYN today. Neither number comes from a cross-checked quote and neither is used to mark the book.
+
+## Open positions (ranked by cost basis; no live P&L available)
+| Ticker | Shares | Avg cost | Current price | Unrealized P&L | Thesis status |
+|--------|--------|----------|----------------|-----------------|---------------|
+| HUT | 11 | $100.53 | Unavailable (quote feed blocked) | N/A | Intact — no contradicting news this window; unverified reports put it roughly flat versus cost. |
+| DYN | 63 | $23.75 | Unavailable (quote feed blocked) | N/A | Watch (unchanged) — regulatory thesis intact; new DYNE-302 IND clearance is incremental pipeline news, doesn't change the core z-rostudirsen thesis or the dilution concern from the July offering. |
+
+## Today's trades
+**No trades today.** No reliable machine-readable quote existed for any ticker, the same 403 policy block that has affected every run since around July 21 persisted for a ninth day, so no fill could be priced from a real source. Independent of the outage, nothing this window cleared the bar for new money as a same-day Buy-grade finding.
+
+## Realized P&L to date
+$0.00 realized (no positions have been closed). Combined realized + unrealized total cannot be computed today without a live mark; it stands at $0.00 realized plus an unknown unrealized figure pending restored data access.
+
+## Watchlist changes
+Added IonQ/SkyWater deal-close context under the IONQ ticker as a new watch item, expires 2026-08-12 (10 trading days out). All seventeen previously carried names (JSPR, TEM, PSNL, KLRS, ONCY, RGNX, BMNR, AMD, BLTE, GLSI, NBIS, RKLB, MU, MCHP, ACAD, ARWR, QBTS) are unchanged; none have expired (earliest expiry is 2026-08-03).
+
+`seen_catalysts` was reviewed for pruning (entries older than 30 days); the oldest entries are dated July 20, nine days ago, so none qualify for pruning yet.
+
+## Administrative notes
+- `reports/unsent-2026-07-28.md` was found in the repo (Tuesday's briefing was compiled but never actually sent, for the same reasons noted below). It has been renamed to `reports/morning-research-2026-07-28.md` in today's commit per the standing procedure, flagged here exactly once.
+- **This is the ninth consecutive run** in which (a) the session's network egress policy blocks every structured data source (SEC EDGAR, ClinicalTrials.gov, bioRxiv, FDA.gov, arXiv, NASA, Yahoo Finance, all three crypto exchange APIs) with a 403, confirmed independently via curl, WebFetch, the proxy status endpoint, and the repo's own `fetch_quotes.py`, and (b) the Gmail connector available to this session exposes only draft creation with no send capability, meaning every run's report ends up as an unsent draft rather than delivered mail. Neither issue is a one-off; both are standing configuration gaps at the account/environment level that a human needs to fix, the network policy needs the relevant hosts allow-listed, and the Gmail connector needs send scope granted. The paper-trading simulation has not executed a single fill or delivered a single email since it opened on July 20, nine days and nine runs ago. This run's self-check (`scripts/selfcheck.py`) was run without `--quotes` since no quote data exists to check against; no numbers were patched to force a pass.
+
+```PORTFOLIO_STATE
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
@@ -392,3 +462,4 @@
     }
   ]
 }
+```
