@@ -1,3 +1,86 @@
+# Morning Investment Research — Thursday, July 30, 2026
+*Window covered: Wednesday, July 29, 2026 00:00 ET – Thursday, July 30, 2026 ~05:06 ET*
+
+**Data-sourcing note (read before the rest):** for the tenth run in a row, every structured, machine-readable source this briefing normally relies on was unreachable — SEC EDGAR, `data.sec.gov`, ClinicalTrials.gov, bioRxiv, FDA.gov, arXiv, NASA, the Yahoo Finance quote API, and the Coinbase/Kraken/crypto.com APIs all returned `403 Forbidden` on the CONNECT tunnel (confirmed independently via direct `curl` to each host, the proxy's own status endpoint showing `connect_rejected` for the same four hosts, `WebFetch` — 403 even on non-financial sites like Wikipedia — and the repo's own `fetch_quotes.py`). `WebSearch` continues to work and is the only source below; nothing here is a fetched primary filing or exchange quote, and **no live, cross-checked price exists for any equity or crypto asset today.** The Gmail connector available to this session again exposes create/update-draft tools only — no send tool of any kind. See the administrative note at the end.
+
+# 📈 Stocks
+
+**Three items are worth noting, none of them a fresh Buy-grade opportunity given no fill can be priced today anyway.**
+
+### Medical
+#### Dyne Therapeutics (DYN, Nasdaq) — Impact: Low-Medium (earnings update, existing position)
+**What happened:** Dyne reported Q2 2026 results: a net loss of $178.6M ($1.08/share), wider than the $110.9M ($0.97/share) loss a year earlier and missing consensus EPS by $0.34. Cash, equivalents, and marketable securities stood at $898.5M as of June 30, which the company says, combined with July's public offering proceeds, funds operations into Q2 2028. The ACHIEVE registrational cohort for z-basivarsen (DM1) completed enrollment at 71 participants. Reported via GlobeNewswire/Manila Times, StockTitan, and MarketBeat.
+**Market impact:** This is a financial/operational update, not a new readout on the lead asset (z-rostudirsen, the actual basis for the position). It does, however, materially address the dilution overhang flagged after the July offering — cash runway is now specified out to Q2 2028.
+**Recommendation: Hold (unchanged, watch status stands)** — the extended runway eases the near-term financing risk from the July raise but doesn't touch the z-rostudirsen regulatory thesis itself. Risk: still the PDUFA timeline (Jan 21, 2027) and continued cash burn. Monitoring trigger unchanged: any update on the z-rostudirsen regulatory path.
+
+#### Replimune Group (REPL, Nasdaq) — Impact: Medium-High [not a position or watchlist name]
+**What happened:** Ahead of a July 30 FDA advisory committee (Cellular, Tissue, and Gene Therapies Advisory Committee), FDA staff briefing documents called Replimune's single-arm melanoma data package for RP1 (vusolimogene oderparepvec) "not interpretable," citing the absence of an Opdivo-only control arm. This is the drug's third FDA review cycle; an August 2 decision is expected. Shares fell roughly 30-32% on the briefing. Reported via BioSpace, Benzinga, PharmExec, and BioPharm International.
+**Market impact:** A negative regulatory signal directly ahead of a binding adcomm vote and PDUFA date.
+**Recommendation: Avoid** — this is a "don't buy the dip" situation, not a new opportunity: the FDA's own briefing documents question interpretability of the primary evidence supporting approval. Risk: a surprise adcomm vote in the company's favor could reverse sentiment quickly. Monitoring trigger: the adcomm vote outcome (today) and the August 2 FDA action date.
+
+### Technology, AI & Quantum
+#### IBM (IBM, NYSE) / HRL Laboratories — Impact: Low (research validation, pending acquisition)
+**What happened:** HRL Laboratories — under a definitive, not-yet-closed agreement to be acquired by IBM (announced July 23, expected to close Q3 2026) — published a Nature study demonstrating an 18-qubit silicon-spin quantum processing unit that operates autonomously at 4 Kelvin via a custom cryogenic CMOS control chip, with basic error-detecting codes on standard silicon-germanium wafers. Reported via Quantum Computing Report and ScienceDaily.
+**Market impact:** Technical validation of the silicon-spin approach IBM is acquiring HRL for, ahead of the deal's Q3 close; incremental relative to IBM's overall scale.
+**Recommendation: Watch** — a real result, but not sized to move a company IBM's size on its own, and the acquisition itself is already public/priced. Risk: the deal hasn't closed. Monitoring trigger: deal close (Q3 2026) and IBM's next update on integrating spin-qubit manufacturing at its Anderon foundry.
+
+### Deals
+#### Processa Pharmaceuticals (PCSA, Nasdaq) / Vidya Therapeutics — Impact: Low [Deal]
+**What happened:** Processa announced a definitive agreement to acquire private Vidya Therapeutics (a BTK inhibitor, VT-7208, for immunology/inflammation) alongside a roughly $200M private placement led by Bain Capital, RA Capital, and Cormorant. Reported via GlobeNewswire and MedCity News.
+**Market impact:** A dilutive financing paired with an early-stage pipeline addition.
+**Recommendation: Not rated — below the account's investable price threshold.** PCSA last traded near $2.01 (previous close $3.05), at or below the roughly-$2 floor this account screens out; noted for completeness, not tracked. Monitoring trigger: none set.
+
+Nothing else in the window (space, emerging markets, ETFs beyond the note below) turned up a genuinely new, unambiguous, multi-source-corroborated catalyst distinct from names already logged in `seen_catalysts`. HUT had no new company-specific news this window: shares were reported lower into its August 4 earnings date amid a broader tech/crypto pullback, with analyst target raises (KBW, Benchmark, Morgan Stanley) that were already in motion prior to this window — thesis unchanged, still intact. Memory names (MU, SNDK) were reported staging a premarket reversal July 29 after the prior week's selloff — a continuation of the situation already on the MU watchlist entry, not a fresh catalyst. SpaceX's reported $1.6B, 18-launch Space Force order (July 29) has no listed public-market proxy (SpaceX is private) and is noted for context only.
+
+# ₿ Cryptos
+
+**No material token-specific catalyst; the macro backdrop was the July 29 FOMC decision, and no cross-checked price is available to report.**
+
+The Fed held its target range at 3.50%-3.75% (9-3 vote), a fifth straight hold; three regional presidents (Hammack, Kashkari, Logan) dissented in favor of a 25bp hike, citing inflation persistently above target. Search snippets (not cross-checked against an exchange) put Bitcoin's July 29 morning range at roughly $63,850-64,250 and Ethereum near $1,905-1,920, with both assets moving in opposite directions intraday ahead of the Fed decision. No comparable snapshot exists yet for July 30. Separately, Morgan Stanley launched Ethereum and Solana ETPs (0.14% expense ratio, staking rewards passed through), extending its crypto ETP lineup alongside its existing Bitcoin product — a distribution/access datapoint, not a token-specific catalyst.
+
+**Positioning: Neutral** on the crypto-ETF-access theme (Morgan Stanley ETH/SOL ETP launch) — broadening institutional access is a slow-moving structural tailwind, not a same-day trigger.
+
+---
+**Sources consulted:** WebSearch only (SEC EDGAR, ClinicalTrials.gov, bioRxiv, FDA.gov, arXiv, NASA, Yahoo Finance quote API, and the Coinbase/Kraken/crypto.com APIs all blocked this session — 10th consecutive day, confirmed via `curl`, `WebFetch`, the proxy status endpoint, and the repo's own `fetch_quotes.py`).
+
+*Informational only; not investment advice. Crypto is volatile and speculative. Verify independently before trading. Generated ~05:06 ET, July 30, 2026.*
+
+---
+
+# Portfolio
+
+## Snapshot
+No live quotes were obtainable this run (see data-sourcing note above) — the same limitation as the prior nine runs. As of the last confirmed state (July 20 fills; unchanged since):
+- Cash: $7,397.92
+- Open positions at cost: DYN 63 sh @ $23.75 ($1,496.25) + HUT 11 sh @ $100.53 ($1,105.83) = $2,602.08 at cost
+- Total account value at cost basis: $10,000.00 (unchanged from the $10,000 starting value; no realized gains/losses booked and no mark-to-market available)
+- Benchmark: 13.4281 SPY shares at $744.71 cost ($10,000 equivalent at inception); no current SPY price available to compare.
+- Return vs. $10,000 start and vs. SPY benchmark: **cannot be computed today** without a live quote, deferred until data access is restored.
+
+Unverified, search-sourced context only (not a fill basis, and inconsistent across sources — illustrating exactly why these aren't used as marks): one source put DYN near $23.89 and another near $17.04; HUT was reported between roughly $94.62 and $101.14 (last close) with an intraday range of $86.89-$101.93 on July 29. None of these numbers are cross-checked and none are used to mark the book.
+
+## Open positions (ranked by cost basis; no live P&L available)
+| Ticker | Shares | Avg cost | Current price | Unrealized P&L | Thesis status |
+|--------|--------|----------|----------------|-----------------|---------------|
+| HUT | 11 | $100.53 | Unavailable (quote feed blocked) | N/A | Intact — no contradicting news this window; shares reportedly softer into the Aug 4 earnings date amid a broader sector pullback, but analyst target raises (KBW $157, Benchmark $195, Morgan Stanley $263) remain in place. |
+| DYN | 63 | $23.75 | Unavailable (quote feed blocked) | N/A | Watch (unchanged) — regulatory thesis intact; Q2 earnings extend the cash runway to Q2 2028, easing (not eliminating) the dilution concern from the July offering. |
+
+## Today's trades
+**No trades today.** No reliable machine-readable quote existed for any ticker — the same policy block that has affected every run since around July 21 persisted for a tenth day, so no fill could be priced from a real source. Independent of the outage, nothing this window cleared the bar for new money: DYN/HUT updates don't change position status, Replimune is an Avoid, the IBM/HRL item is Watch-only and not sized for a name IBM's size, and Processa trades below the account's investable price floor.
+
+## Realized P&L to date
+$0.00 realized (no positions have been closed). Combined realized + unrealized total cannot be computed today without a live mark; it stands at $0.00 realized plus an unknown unrealized figure pending restored data access.
+
+## Watchlist changes
+No adds, no removes. All eighteen previously carried names (JSPR, TEM, PSNL, KLRS, ONCY, RGNX, BMNR, AMD, BLTE, GLSI, NBIS, RKLB, MU, MCHP, ACAD, ARWR, QBTS, IONQ) are unchanged; none have expired (earliest expiry is 2026-08-03).
+
+`seen_catalysts` was reviewed for pruning (entries older than 30 days); the oldest entries are dated July 20, ten days ago, so none qualify for pruning yet.
+
+## Administrative notes
+- `reports/unsent-2026-07-29.md` was found in the repo (Wednesday's briefing was compiled but never actually sent, for the same reasons noted below). It has been renamed to `reports/morning-research-2026-07-29.md` in today's commit per the standing procedure, flagged here exactly once.
+- **This is the tenth consecutive run** in which (a) the session's network egress policy blocks every structured data source (SEC EDGAR, ClinicalTrials.gov, bioRxiv, FDA.gov, arXiv, NASA, Yahoo Finance, all three crypto exchange APIs) with a 403, confirmed independently via curl, WebFetch, the proxy status endpoint, and the repo's own `fetch_quotes.py`, and (b) the Gmail connector available to this session exposes only draft creation with no send capability, meaning every run's report ends up as an unsent draft rather than delivered mail. Neither issue is a one-off; both are standing configuration gaps at the account/environment level that a human needs to fix — the network policy needs the relevant hosts allow-listed, and the Gmail connector needs send scope granted. The paper-trading simulation has not executed a single fill or delivered a single email since it opened on July 20, ten days and ten runs ago. This run's self-check (`scripts/selfcheck.py`) was run without `--quotes` since no quote data exists to check against; no numbers were patched to force a pass.
+
+```PORTFOLIO_STATE
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
@@ -416,3 +499,4 @@
     }
   ]
 }
+```
