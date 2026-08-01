@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-07-31",
+  "last_run": "2026-08-01",
   "cash": 7397.92,
   "positions": [
     {
@@ -21,7 +21,7 @@
       "entry_date": "2026-07-20",
       "stop": 82.0,
       "target": 125.0,
-      "thesis": "Signed $9.8B, 15-year lease fully commercializes 1GW Beacon Point AI campus with an investment-grade tenant, accelerating the pivot from BTC mining to AI infra leasing.",
+      "thesis": "Signed $9.8B, 15-year lease fully commercializes 1GW Beacon Point AI campus with an investment-grade tenant, accelerating the pivot from BTC mining to AI infra leasing. Nvidia confirmed as the anchor tenant July 31, 2026 (FT report); base-term contract value now put at $19.6B, up to $50.2B with renewals.",
       "status": "intact"
     }
   ],
@@ -433,6 +433,10 @@
     {
       "key": "ETH:2026-07-29:etf-flow-conflicting-reports",
       "noted": "2026-07-31"
+    },
+    {
+      "key": "HUT:2026-07-31:nvidia-anchor-tenant-revealed",
+      "noted": "2026-08-01"
     }
   ]
 }
