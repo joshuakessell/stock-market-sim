@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized_at": "2026-07-20T10:50:30-04:00",
-  "last_run": "2026-08-02",
+  "last_run": "2026-08-03",
   "cash": 7397.92,
   "positions": [
     {
@@ -32,42 +32,6 @@
     "quote_ts": "2026-07-20T10:50:30-04:00"
   },
   "watchlist": [
-    {
-      "ticker": "JSPR",
-      "reason": "Reverse merger with Kira Pharmaceuticals closed + $132M PIPE; stock fell 11% on close, stockholder vote on preferred conversion still pending",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
-    },
-    {
-      "ticker": "TEM",
-      "reason": "Definitive deal to acquire Personalis (~$1.5B, floating stock ratio); TEM fell 9% on announcement; routine shareholder-rights investigation opened July 21-22, not itself material",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
-    },
-    {
-      "ticker": "PSNL",
-      "reason": "Being acquired by Tempus at nominal $16.25/sh but trading well below that on deal-closing risk and floating ratio; routine shareholder-rights investigation opened July 21-22, not itself material",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
-    },
-    {
-      "ticker": "KLRS",
-      "reason": "Positive expanded Phase 1a nAMD durability data but stock fell 5%; watch for Phase 2 initiation",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
-    },
-    {
-      "ticker": "ONCY",
-      "reason": "FDA Fast Track for pelareorep combo in anal SCC; designation only, no efficacy data yet",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
-    },
-    {
-      "ticker": "RGNX",
-      "reason": "$100M ($107.8M) follow-on priced at $9.00/sh on July 17; shares fell ~17% on the pricing (resolves prior conflicting reports); separate shareholder-rights investigation into RGX-111 disclosures adds legal-headline risk",
-      "added": "2026-07-20",
-      "expires": "2026-08-03"
-    },
     {
       "ticker": "BMNR",
       "reason": "Q3 FY26 results: revenue beat ($46.5M, 98% ETH staking) but a $92.1M loss on ETH-linked derivatives drove an $83.6M net loss; stock fell ~7.7% July 23. Derivatives exposure is now a structural swing factor distinct from the underlying ETH-treasury thesis",
